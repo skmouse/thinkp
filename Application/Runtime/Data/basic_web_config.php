@@ -1,0 +1,1 @@
+a:5:{s:5:"title";s:12:"新闻网站";s:8:"keywords";s:42:"网站，新闻。娱乐，咨询，学习";s:11:"description";s:27:"提供新闻咨询的功能";s:9:"dumpmysql";s:1:"1";s:10:"cacheindex";s:1:"1";}

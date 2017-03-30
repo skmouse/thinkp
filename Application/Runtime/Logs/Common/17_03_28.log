@@ -1,0 +1,24 @@
+[ 2017-03-28T22:16:52+08:00 ] ::1 /thinkp/admin.php?m=homr&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+ERR: 无法加载模块:Homr
+
+[ 2017-03-28T22:17:04+08:00 ] ::1 /thinkp/admin.php?m=homr&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+ERR: 无法加载模块:Homr
+
+[ 2017-03-28T22:17:10+08:00 ] ::1 /thinkp/admin.php?m=homr&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+ERR: 无法加载模块:Homr
+
+[ 2017-03-28T22:17:31+08:00 ] ::1 /thinkp/admin.php?m=homr&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+ERR: 无法加载模块:Homr
+

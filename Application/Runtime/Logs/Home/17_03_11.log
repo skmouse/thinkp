@@ -1,0 +1,1820 @@
+[ 2017-03-11T16:52:53+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002540s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.018122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004802s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005167s ]
+
+[ 2017-03-11T16:55:29+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001577s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000409s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102686s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102893s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001530s ]
+
+[ 2017-03-11T16:58:40+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001807s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089941s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2017-03-11T17:03:27+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.101322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001294s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001636s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002426s ]
+
+[ 2017-03-11T17:04:21+08:00 ] ::1 /thinkp/index.php?c=cat&id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002144s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002428s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T17:04:47+08:00 ] ::1 /thinkp/index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T17:04:49+08:00 ] ::1 /thinkp/index.php?c=cat&id=51
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T17:05:34+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001128s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001065s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0129s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0017s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002614s ]
+
+[ 2017-03-11T17:05:36+08:00 ] ::1 /thinkp/index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001020s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T17:07:44+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001540s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003861s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0189s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.120198s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002393s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002734s ]
+
+[ 2017-03-11T17:07:44+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003792s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002585s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002915s ]
+
+[ 2017-03-11T17:07:44+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001598s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002348s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000450s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.089045s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089247s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000991s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2017-03-11T17:07:52+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000685s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001796s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002218s ]
+
+[ 2017-03-11T17:08:39+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001178s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000490s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000786s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085392s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001261s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001517s ]
+
+[ 2017-03-11T17:09:06+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002664s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000570s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001087s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2017-03-11T17:09:37+08:00 ] ::1 /thinkp/index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T17:10:31+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000978s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006589s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100711s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101061s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004106s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002174s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002498s ]
+
+[ 2017-03-11T17:10:48+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002023s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001597s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002024s ]
+
+[ 2017-03-11T17:11:24+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000710s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.110926s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.111199s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001160s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001355s ]
+
+[ 2017-03-11T17:11:49+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.087314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087723s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002165s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002515s ]
+
+[ 2017-03-11T18:56:22+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000528s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001733s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002246s ]
+
+[ 2017-03-11T19:25:38+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0225s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0025s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.098721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.098989s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001790s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005732s ]
+
+[ 2017-03-11T19:25:41+08:00 ] ::1 /thinkp/index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002722s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T19:25:44+08:00 ] ::1 /thinkp/index.php?c=cat&id=46
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003978s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T19:26:07+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000291s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0216s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.102058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002015s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002369s ]
+
+[ 2017-03-11T19:26:09+08:00 ] ::1 /thinkp/index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003543s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T19:26:52+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 10 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 34 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 35 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined variable: result D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112425s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001658s ]
+
+[ 2017-03-11T19:38:12+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000124s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002992s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0183s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: topSmailNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001494s ]
+
+[ 2017-03-11T20:48:18+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003165s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0246s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0048s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000789s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001289s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0031s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: topSmailNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003076s ]
+
+[ 2017-03-11T20:48:34+08:00 ] ::1 /thinkp/index.php?c=cat&id=3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003672s ]
+ERR: 无法加载控制器:Cat
+
+[ 2017-03-11T23:26:45+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001359s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002502s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0129s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0139s ]
+
+[ 2017-03-11T23:27:14+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001682s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0085s ]
+
+[ 2017-03-11T23:27:51+08:00 ] ::1 /thinkp/index.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003627s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002884s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0092s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0007s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0095s ]
+
+[ 2017-03-11T23:27:55+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0108s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0118s ]
+
+[ 2017-03-11T23:28:18+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0118s ]
+
+[ 2017-03-11T23:29:27+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0009s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0088s ]
+
+[ 2017-03-11T23:29:37+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002581s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0101s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002640s ]
+
+[ 2017-03-11T23:29:42+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002503s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004942s ]
+
+[ 2017-03-11T23:31:18+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0102s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: topSmailNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065898s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001866s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002359s ]
+
+[ 2017-03-11T23:33:57+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0110s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: topSmailNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001505s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002065s ]
+
+[ 2017-03-11T23:34:31+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002773s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: topSmailNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057595s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057919s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001380s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001638s ]
+
+[ 2017-03-11T23:35:34+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000118s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002246s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: topSmailNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 39 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001387s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002728s ]
+
+[ 2017-03-11T23:39:04+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000089s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002098s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0243s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001436s ]
+
+[ 2017-03-11T23:39:17+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001953s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0210s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 5   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000611s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001119s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002683s ]
+
+[ 2017-03-11T23:39:58+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003002s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0073s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 5   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000581s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074352s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001728s ]
+
+[ 2017-03-11T23:40:12+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007473s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 10   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000705s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000888s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001338s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2017-03-11T23:40:17+08:00 ] ::1 /thinkp/index.php?c=detail&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001925s ]
+ERR: 无法加载控制器:Detail
+
+[ 2017-03-11T23:40:25+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002619s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0112s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 10   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063824s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2017-03-11T23:41:01+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001611s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0106s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 10   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000603s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069953s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002020s ]
+
+[ 2017-03-11T23:41:25+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0227s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 10   [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.085976s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.086782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001728s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001647s ]
+
+[ 2017-03-11T23:41:36+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001470s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0205s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000404s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069682s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002287s ]
+
+[ 2017-03-11T23:41:43+08:00 ] ::1 /thinkp/index.php?c=detail&id=52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+ERR: 无法加载控制器:Detail
+
+[ 2017-03-11T23:42:59+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000097s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001481s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002897s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0215s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.095740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001808s ]
+
+[ 2017-03-11T23:43:13+08:00 ] ::1 /thinkp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002162s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002589s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0086s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071954s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001868s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002327s ]
+
+[ 2017-03-11T23:43:26+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0096s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000359s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000715s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001598s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002584s ]
+
+[ 2017-03-11T23:44:03+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0085s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000350s ]
+NOTIC: [2048] Declaration of Common\Model\BasicModel::save() should be compatible with Think\Model::save($data = '', $options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\BasicModel::select() should be compatible with Think\Model::select($options = Array) D:\wamp\www\thinkp\Application\Common\Model\BasicModel.class.php 第 36 行.
+NOTIC: [2048] Declaration of Common\Model\MenuModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\MenuModel.class.php 第 104 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 0 ORDER BY menu_id  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 22 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: catId D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 23 行.
+NOTIC: [8] Undefined index: listNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 47 行.
+NOTIC: [8] Undefined index: rankNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 71 行.
+NOTIC: [8] Undefined index: advNews D:\wamp\www\thinkp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2017-03-11T23:50:20+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0192s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0008s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0168s ]
+
+[ 2017-03-11T23:51:46+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001758s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0196s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0109s ]
+
+[ 2017-03-11T23:52:02+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0181s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0006s ]
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 109 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0096s ]
+
+[ 2017-03-11T23:53:33+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003318s ]
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-03-11T23:54:40+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001922s ]
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-03-11T23:54:42+08:00 ] ::1 /thinkp/index.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001667s ]
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-03-11T23:54:44+08:00 ] ::1 /thinkp/index.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001671s ]
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-03-11T23:54:52+08:00 ] ::1 /thinkp/index.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-03-11T23:55:03+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001644s ]
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-03-11T23:56:12+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001520s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004214s ]
+ERR: Think\Controller:getRank方法不存在！
+
+[ 2017-03-11T23:57:28+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000049s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001028s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001515s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\thinkp\Application\Home\Controller\CommonController.class.php 第 24 行.
+
+[ 2017-03-11T23:57:45+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002058s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\thinkp\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc,news_id desc  LIMIT 10   [ RunTime:0.0012s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0098s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0006s ]
+
+[ 2017-03-11T23:59:13+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\thinkp\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY news_id desc  LIMIT 10   [ RunTime:0.0019s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0120s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0009s ]
+
+[ 2017-03-11T23:59:24+08:00 ] ::1 /thinkp/index.php?m=home&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000084s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003052s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003367s ]
+NOTIC: [2048] Declaration of Home\Controller\CommonController::error() should be compatible with Think\Controller::error($message = '', $jumpUrl = '', $ajax = false) D:\wamp\www\thinkp\Application\Home\Controller\CommonController.class.php 第 24 行.
+NOTIC: [2048] Declaration of Common\Model\NewsModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\NewsModel.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY news_id desc  LIMIT 10   [ RunTime:0.0017s ]
+NOTIC: [2048] Declaration of Common\Model\PositionContentModel::find() should be compatible with Think\Model::find($options = Array) D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 89 行.
+SQL: SHOW COLUMNS FROM `cms_position_content` [ RunTime:0.0079s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 9 ORDER BY id desc LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: title D:\wamp\www\thinkp\Application\Common\Model\PositionContentModel.class.php 第 18 行.
+SQL: SELECT * FROM `cms_position_content` WHERE `status` = 1 AND `position_id` = 11 ORDER BY id desc LIMIT 3   [ RunTime:0.0005s ]
+

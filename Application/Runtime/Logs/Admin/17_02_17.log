@@ -1,0 +1,493 @@
+[ 2017-02-17T12:03:10+08:00 ] ::1 /thinkp/admin.php?c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000102s ]
+INFO: [ app_init ] --END-- [ RunTime:0.048384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.048774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.049511s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-02-17T12:03:11+08:00 ] ::1 /thinkp/admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001581s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000672s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000944s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.215206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.215517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.019187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.019483s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.020518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.020877s ]
+
+[ 2017-02-17T12:03:19+08:00 ] ::1 /thinkp/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0440s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0033s ]
+
+[ 2017-02-17T12:03:22+08:00 ] ::1 /thinkp/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001710s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000627s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 74 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Undefined variable: admincount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 114 行.
+NOTIC: [8] Undefined variable: newscount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 136 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 158 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 163 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: positioncount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.137214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.137557s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001411s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2017-02-17T12:04:03+08:00 ] ::1 /thinkp/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002231s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-02-17T12:04:04+08:00 ] ::1 /thinkp/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 74 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Undefined variable: admincount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 114 行.
+NOTIC: [8] Undefined variable: newscount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 136 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 158 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 163 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: positioncount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092792s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.093162s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001008s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001238s ]
+
+[ 2017-02-17T12:04:12+08:00 ] ::1 /thinkp/index.php?m=admin&c=login&a=loginout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-02-17T12:04:12+08:00 ] ::1 /thinkp/index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000199s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000562s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2017-02-17T12:06:49+08:00 ] ::1 /thinkp/index.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.201924s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.202215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003367s ]
+
+[ 2017-02-17T12:06:49+08:00 ] ::1 /thinkp/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001277s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003366s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0376s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2017-02-17T12:06:57+08:00 ] ::1 /thinkp/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000230s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-02-17T12:06:58+08:00 ] ::1 /thinkp/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001526s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002528s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000410s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 74 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Undefined variable: admincount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 114 行.
+NOTIC: [8] Undefined variable: newscount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 136 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 158 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 163 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: positioncount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.182502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.182875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2017-02-17T12:07:02+08:00 ] ::1 /thinkp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 74 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Undefined variable: admincount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 114 行.
+NOTIC: [8] Undefined variable: newscount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 136 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 158 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 163 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: positioncount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000829s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2017-02-17T12:07:33+08:00 ] ::1 /thinkp/index.php?m=admin&c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001920s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000280s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 75 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 78 行.
+NOTIC: [8] Undefined variable: nav D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 100 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 114 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 115 行.
+NOTIC: [8] Undefined variable: menus D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 148 行.
+NOTIC: [8] Undefined variable: pageRes D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.293242s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.293616s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001849s ]
+
+[ 2017-02-17T12:07:50+08:00 ] ::1 /thinkp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000247s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000748s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 74 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Undefined variable: admincount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 114 行.
+NOTIC: [8] Undefined variable: newscount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 136 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 158 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 163 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: positioncount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088389s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000660s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2017-02-17T12:07:50+08:00 ] ::1 /thinkp/index.php?m=admin&c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001787s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002241s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000270s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 75 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 78 行.
+NOTIC: [8] Undefined variable: nav D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 100 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 114 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 115 行.
+NOTIC: [8] Undefined variable: menus D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 148 行.
+NOTIC: [8] Undefined variable: pageRes D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.131143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002721s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003080s ]
+
+[ 2017-02-17T12:08:08+08:00 ] ::1 /thinkp/admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001508s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 74 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Undefined variable: admincount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 114 行.
+NOTIC: [8] Undefined variable: newscount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 136 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 158 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 163 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: positioncount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.104339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104709s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000839s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001038s ]
+
+[ 2017-02-17T12:08:58+08:00 ] ::1 /thinkp/admin.php?c=menu&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000175s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001128s ]
+NOTIC: [8] Undefined variable: module D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [8] Undefined variable: var D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] array_reverse() expects parameter 1 to be array, null given D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+NOTIC: [2] http_build_query(): Parameter 1 expected to be Array or Object.  Incorrect value given D:\wamp\www\thinkp\ThinkPHP\Common\functions.php 第 990 行.
+
+[ 2017-02-17T12:08:58+08:00 ] ::1 /thinkp/admin.php?m=&&m=admin&c=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001756s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032251s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2017-02-17T12:09:05+08:00 ] ::1 /thinkp/index.php?m=admin&c=login&a=check
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000125s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0544s ]
+SQL: SELECT * FROM `cms_admin` WHERE ( username="admin" ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-02-17T12:09:06+08:00 ] ::1 /thinkp/index.php?m=admin&c=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000174s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 74 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 77 行.
+NOTIC: [8] Undefined variable: admincount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 114 行.
+NOTIC: [8] Undefined variable: newscount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 136 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 158 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 163 行.
+NOTIC: [8] Undefined variable: news D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 167 行.
+NOTIC: [8] Undefined variable: positioncount D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 180 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.088384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088674s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002010s ]
+
+[ 2017-02-17T12:09:15+08:00 ] ::1 /thinkp/index.php?m=admin&c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 75 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 78 行.
+NOTIC: [8] Undefined variable: nav D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 100 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 114 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 115 行.
+NOTIC: [8] Undefined variable: menus D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 148 行.
+NOTIC: [8] Undefined variable: pageRes D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2017-02-17T12:09:25+08:00 ] ::1 /thinkp/index.php?m=admin&c=menu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 75 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 78 行.
+NOTIC: [8] Undefined variable: nav D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 100 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 114 行.
+NOTIC: [8] Undefined variable: type D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 115 行.
+NOTIC: [8] Undefined variable: menus D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 148 行.
+NOTIC: [8] Undefined variable: pageRes D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\b956215329b6f9aca22277599a4efdfc.php 第 163 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000975s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001589s ]
+
+[ 2017-02-17T12:09:45+08:00 ] ::1 /thinkp/admin.php?c=menu&a=add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002312s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] Undefined variable: index D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 75 行.
+NOTIC: [8] Undefined variable: navs D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 78 行.
+NOTIC: [8] Undefined variable: menus D:\wamp\www\thinkp\Application\Runtime\Cache\Admin\31553d7bb41170a30982ff9dddd5d67e.php 第 122 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150157s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001733s ]
+
