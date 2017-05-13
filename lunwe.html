@@ -1,0 +1,454 @@
+
+基于TP框架下的新闻管理系统的研究与实现
+【摘要】 这几年我国在各个方面发展的速度超出人类的想象，尤其是在互联网方面让我们的生活发生了巨大的变化，从之前的报纸时代演化成互联网时代，传统的新闻管理已经不适合互联网的变化，互联网使得人们获取信息的方式速度越来越快，信息越来越多，所以构建一个web新闻管理系统可以很方便了新闻工作者，同时对数据的有效管理大大的方便使了新闻工作者。构建一个互联网web系统，能够让技术得以充分的体现。对新闻的处理也将更加方便快速，对这个行业的发展也将会起到推进作用。本项目采用B/S结构，使用php作为当前的主流的开发语言，数据库采用mysql作为数据库，服务器采用appach，选用thinktp作为系统的基础框架，前端使用BootStrap来搭建界面，提示框采用layer插件，给用户提供良好的界面体验。
+【关键词】 web管理系统  热点事件  新闻
+
+
+Research  and  implementation  of  news
+management system based on TP framework
+【Abstract】: n recent years China's development in all aspects of the speed beyond human imagination, especially in terms of the Internet make our life has undergone tremendous changes, the evolution from the previous newspaper era into the Internet era, the traditional news management is not suitable for the Internet, the Internet makes the way people access to information more quickly so, more and more information, build a web news management system can be very convenient for journalists, and is convenient for the effective management of data greatly to journalists. Build an Internet web system, enabling technology to fully reflect. The processing of news will be more convenient and rapid, the development of the industry will also play a role in promoting. This project uses the B/S structure, using PHP as the current mainstream development language, database using MySQL as database server using appach, using thinktp as the basic framework of the system, using BootStrap to build the front-end interface, prompt box using layer plug-in, to provide users with a good interface experience.
+【Key Words】: Web management  Hot event news  new
+
+
+
+
+
+
+
+
+
+
+目录
+
+目录	II
+第1章 引言	1
+1.1 论文研究背景与意义	1
+1.2 本课题研究内容与目标	2
+第2章 开发环境及相关技术的介绍	3
+2.1 PHP介绍	3
+2.2 APPACH概述	3
+2.3 AJAX技术概述	4
+2.4 MYSQL概述	4
+2.5 BOOTSTRAP概述	4
+2.6 TP框架概述	4
+2.7 PHPSTORM简介	4
+第3章 需求分析	6
+3.1需求分析概述	6
+3.2系统模块E-R图	6
+3.3运行环境规定	8
+第4章 系统结构分析与设计	9
+4.1模块功能图	9
+4.1.1 系统前台功能模块图	9
+4.1.2 系统后台功能模块图	10
+4.1.3 系统架构模块图	10
+4.2 数据库表分析与设计	11
+第5章 系统详细设计及实现	16
+5.1 前台设计	16
+5.1.1 前台首页	16
+5.1.2 前台广告位	17
+5.1.3前台文章排行	18
+5.2 后台设计	18
+5.2.1 后台登陆	18
+5.2.2 后台首页	19
+5.2.3 菜单管理	20
+5.2.4 文章管理	21
+5.2.5 推荐位管理	22
+5.2.6 推荐位内容管理	22
+5.2.7 用户管理	22
+5.2.8 用户管理	22
+5.2.9 用户个人中心	23
+5.3 数据格式,项目技术原理等	23
+5.3.1 数据格式JSON	23
+5.3.2 分页原理	24
+5.3.3 cookie.session原理	24
+结论	26
+致谢语	27
+参考文献	28
+
+
+第1章 引言
+
+1.1 论文研究背景与意义
+当前我们正处于一个信息社会，在Internet时代，信息获取的方式出现了从被动改为主动变化，信息的成本也变的比较廉价，所以涌现出许多新闻系统，当前社会信息已经出现共享模式，从事新闻行业的媒体竞争也在日趋激烈，新闻管理局不但接受着本地区各大新闻媒体的挑战，还要面对其他国家各方面的竞争。这就使得使用计算机来进行新闻管理和发布是当前媒体趋势下的当务之急，我们现在的社会是多元化的社会，传播信息的速度由于互联网的出现，速度变得异常的飞快，如何对新闻进行有效的管理也变得越来重要。
+Web新闻系统，就是让用户可以在网上获取到用户想要查看的信息，在互联网时代还没有到来的时候，人和人进行信息交流的方式是一般都采用书信，各大新闻媒体采用传统的报纸进行信息发布，大众获取信息的成本变得异常高，传播速度当然也非常慢，这种模式肯定是不可取的，如果现在我们还使用以前传统的传播模式这显然是不可取的，国家要发展就要从技术上做出根本的改变，对于信息方面更为重要迫切。这就使得开发一个强有力的新闻系统使得新闻的获取和管理变得更加方便。
+对于新闻业务需求，有这几个方面，有广告位进行广告的刊登，这样的话新闻社获取一定的收入用于一些基本的支出，然后将一些编辑好的图片，文案素材等插入页面，之后送去印刷厂进行印刷，新闻社和印刷厂签订合约，中间会出现各种问题，比如要进行修改的话，此时怎么修改就是一个问题，尤其是对于已经印刷出的报纸，这时候修改就只能毁掉原先的报纸，这样做就大大浪费了成本资源，更为尴尬的是如果已经发布的新闻如果要再进行修改的话那就没办法了，所以这种方式是浪费了大大的成本资源，人们获取信息的方式也不会同步。
+本文主在新闻业务进行技术上进行探讨，在互联网上发掘新闻的最大价值使得新闻工作者的工作更加简便提出了一个基于在Internet网络浏览器，采用B/S架构实现新闻社的日常业务功能。
+
+
+1.2 本课题研究内容与目标
+本课题的主要研究内容为基于TP框架下的新闻系统的设计与开发。本文涉及到内容有：web开发环境的搭建，PHP的MVC框架TP，本项目前端使用BootStarp框架，前端框架使得后台开发者将主要工作放在后台业务逻辑的开发上，数据库使用性能较好的MYSQL，数据库的管理工具采用简单便捷的Navicat，服务器使用Appach。后台模块主要有：菜单管理（对后台菜单和前台菜单进行curd操作），文章管理，推荐位管理，推荐内容管理，用户管理，基本管理，前台模块主要有：数据列表的展示，数据的分类。
+本文研究的目标是：搭建一个可实用的新闻管理系统。使得新闻工作变得更加方便。
+
+第2章 开发环境及相关技术的介绍
+2.1 php介绍
+PHP是一门语言。由于它不像C语言有指针操作一样，它不会直接对内存操作，所以对于初学者来说比较容易上手，如果对于内存直接操作的话，很容易发生错误。由于它有其他语言的特点，而且主要用于web开发，可以直接嵌入到html中。当前采用PHP开发的大公司有微博系统等。当然在当前web开发环境下PHP对业务的处理还是很方便的，但是对于一些性能上的处理，它处理的速度比较慢，一般会采用GO进行处理性能。
+2.2 Appach概述
+Appach是一个web服务器，网站开发需要一种服务器，Web服务器有IIS，Appach,nginx,每种服务器都有自己的特点.IIS服务器是微软的，所以一般都用C#语言进行开发，Web服务器一般是作用于网站服务器， Appache服务器的全称是 Apache HTTP Server,支持多个平台,速度快,运行稳定,可以通过简单的api扩展,把php/Python等解释器加入到服务器中,所以Apache的应用十分广泛。工作原理如图：2-1。
+
+
+图2-1 web工作原理
+
+2.3 ajax技术概述
+AJAX就是异步Js和XML”。就是前端的数据使用JS获取到，然后进行POST等方式传输的服务器，一般来说如果有submit的时候，点击会直接提交，这种情况下会刷新所有的页面，如果页面只是部分进行改动的话，就只能采用AJAX。它的局部刷新页面让用户感觉得到良好的用户体验，但是AJAX也有一点缺点，这个缺点就是代替了URL本身定位的一个地址，当然遇到这种情况可以参考谷歌，谷歌有完善的解决。
+2.4 mysql概述
+MYsql是一个数据库。数据库的作用主要是用来存放一些的数据，以前在没有数据库的时候，人们存数据的话一般都是在纸上，这样做的话，数据不利于管理，随着科学的发展一直演变到现在用数据库，用数据库的话对于数据的存储会比较方便，而且mysql数据体积比其他数据库小，下载速度快，对于一些性能要求不高的项目，使用mysql是一个非常合理的选择。
+2.5 BootStrap概述
+BootStrap是一个优秀的前端框架，框架里面有许多组件，有html，js等组成，对于后台开发者来说，一般不需要页面布局，专注于后台逻辑，要开发一个全栈网站，采用bootstrap可以不用担心前端页面这种情况，由于它的文档也非常完善，所以越来越多的后台开发者采用这个框架，用它可以设计出很多漂亮的界面。
+2.6 TP框架概述
+TP框架php的一个开发框架，它和大多数框架一样，都是基于mvc的设计模式，同时TP自带模板引擎技术，使得前后端进行分离，tp的curd操作使得开发者专注于逻辑方面，从繁琐的数据库中脱离出来，TP对于新手php来说，非常容易上手，简单，理解也非常容易，TP的开发文档同时也写的特别完善，这对于开发者来说好的文档在开发过程中会避免好多问题。
+2.7 PhpStorm简介
+PhpStorm是一款优秀的IDE，主要用于PHP的应用的开发。本项目采用PhpStorm的原因是因为在该IDE下，可以轻松的把将项目的发布到Github服务器上。方便后期的修改等工作。项目整体目录如图：2-2
+
+图2-2 phpstorm发布项目
+
+
+
+
+
+
+
+
+
+
+
+
+第3章 需求分析
+3.1需求分析概述
+做这个项目之前，我主要是通过填写问卷，以及咨询了很多朋友调研后得到了这个需求分析，因此制定本系统要达到的总体目标和功能目标。
+国内很多新闻网站比如新浪网等都有自己的专栏，还有很多自己的个人博客，地方网站等都有自己的显示，由于他们发布的信息非常频繁，这样的话就不能使用静态网页，静态网页作为页面引来的问题就是维护工作特别麻烦，如果全部都使用静态网页的话，也不利于网站的动态管理，当然首页需要静态化处理这样可以对高并发作为应对，使用新闻管理的话管理员进行系统的维护的时候比较方便，不用做些繁琐的操作，管理员只需要进行设置标题，图片等系统就会自己生成网页。
+（1）	功能目标
+本项目的功能主要有这几个方面：新闻发布，更改，编辑，删除，搜素，审核等功能
+3.2系统模块E-R图
+1.首先系统用户进入后台，进行登陆，后台的数据库进行匹配验证登陆是否正确。用例如图：3-1
+
+
+
+
+图3-1
+
+涉及到的表有后台的用户表，表的实体为3-2
+
+图3-2
+2.add菜单栏目，可以进行编辑和修改用例图如下所示
+
+
+图3-3
+
+
+图3-4
+3．管理员对文章进行操作的时候用例图如下所示：
+
+图3-5
+
+图3-6
+3.3运行环境规定
+（1）windows系统，64位
+（2）推荐CPU为I7
+（3）内存8G以上
+
+
+第4章 系统结构分析与设计
+
+4.1模块功能图
+4.1.1 系统前台功能模块图
+根据系统的功能，对前台的功能模块进行分析。
+前台的模块主要包括：栏目分类，广告位模块，首页模块，文章列表模块，排行模块等五大模块。前台用户模块如图4.1所示。
+
+
+图4-1
+
+图4.-1前台功能模块
+
+4.1.2 系统后台功能模块图
+后台模块主要包括：用户登录模块，首页模块，文章模块（文章管理、编辑、删除等），菜单模块，推荐位模块，推荐位管理模块，用户管理模块，基本管理模块。整体结构如图4.2所示。
+
+
+图4.-2后台功能模块
+
+4.1.3 系统架构模块图
+本系统在前台主要用于展示的功能，前台不使用用户登录，考虑到此项目受众人群主要是用于对于关注新闻的人，分析得出这部分人最大的需求是查看新闻，所以只是做了新闻的排行，对于后台模块，做的比较详细，方便管理员的编辑，系统架构图如图4.3所示。
+
+图4.-3
+4.2 数据库表分析与设计
+分析当前的新闻web系统的需求，后台有首先由注册登录功能功能，所以创建后台用户表，用户名有字段有ID，名字，密码（采用md5进行加密，避免密码泄露等），邮箱（用户进行找回密码等），用户的真实姓名，以及状态，状态是用来验证用户是不是已经被删除过的，如果用户是已经被删除的，则从后台数据库读取的话是读取不出来的。分析表的建议，admid_采用auto自动增长，数据类型选择int型。Int最大的位数为13位，而且主键ID不能为空。
+后台用户可以为前端栏目添加栏目，所以要有个添加栏目，因此要有一个菜单表，菜单表有Id,名字，一个属于的栏目，模块，方法，它在那个控制器，数据，又因为要对后台数据进行排序的话，所以要有个排序的字段，而且每个菜单都可以是被删除的操作，因此要有status字段。其中栏目iD采用默认的方法使用0进行处理。方法默认的走index方法。
+新闻在存放的内容的时候要有表，每条新闻都有自己的Id,所属栏目，大标题，小标题，主要用来显示在前台，对于特殊的字体要用标记处理，所以要有个存放颜色的字段，在web开发过程中只要涉及到的数据都必须要进入数据库中，对于图片要有存放的路径使用thunb这个变量来表述。每条记录里面都有个关键字，关键字不能为空，用varchar来进行表述，新闻也要进行lisetorder，排序的字段一般都是整形，所以采用int型就可以满足，同时新闻的来源也是重要的，要有一个字段存放它，一般是用0-1..等表示，可以直接写入到配置文件中。这样可以减少内存的占用。
+推荐位，为什么会有这个表，首先管理员要发表的时候必须要经过推荐才能进行发表，不能直接点击发送就行，关于推荐位根据前台可以得到，主要有广告，首页大图，排行，等4个位置，所以只存这个东西，有ID，状态判断是否要删除操作，以解释。当然还有更新的时间，用户在什么时候更新的时间要显示出在列表中。
+推荐位内容，管理员将内容推荐出来，要有个存放内容的表，这个表主要字段有每条记录的唯一ID。以及title，排序等操作。详细见表设计。
+根据本系统的要求，设计数据库表。
+表4-1后台用户表（cms_admin）
+列名	数据类型	长度	是否为空	含义
+admin_id	mediumint	6	0	主键ID
+username	varchar	20	0	用户名
+password	varchar	32	0	密码
+lastloginip	varchar	15	0	登陆IP
+lastlogintime	int	10	0	最后登陆时间
+email	varchar	40	0	Emial
+realname	varchar	50	0	姓名
+status	tinyint	1	0	状态
+表4-2后台菜单表（cms_admin）
+列名	数据类型	长度	是否为空	含义
+menu_id	smallint	6	0	菜单ID
+name	varchar	40	0	菜单名字
+parentid	smallint	6	0	栏目
+m	varchar	20	0	模块
+c	varchar	20	0	控制器
+f	varchar	20	0	方法
+data	varchar	100	0	数据
+listorder	smallint	6	0	排序
+status	tinyint	1	0	状态
+type	tinyint	1	0	类型
+menu_id	smallint	6	0	0
+name	varchar	40	0	0
+parentid	smallint	6	0	0
+m	varchar	20	0	0
+c	varchar	20	0	0
+f	varchar	20	0	0
+data	varchar	100	0	0
+listorder	smallint	6	0	0
+status	tinyint	1	0	0
+type	tinyint	1	0	0
+menu_id	smallint	6	0	0
+name	varchar	40	0	0
+parentid	smallint	6	0	0
+表4-3 新闻表（cms_news）
+列名	数据类型	长度	允许空	含义
+news_id	mediumint	8	0	新闻ID
+catid	smallint	5	0	栏目ID
+title	varchar	80	0	标题
+small_title	varchar	30	0	小标题
+title_font_color	varchar	250	0	-颜色
+thumb	varchar	100	0	上传路径
+keywords	char	40	0	关键字
+description	varchar	250	0	描述
+posids	varchar	250	0	标示
+listorder	tinyint	3	0	排序
+status	tinyint	1	0	状态
+copyfrom	varchar	250	0	来源
+username	char	20	0	姓名
+create_time	int	10	0	创建时间
+update_time	int	10	0	更新时间
+count	int	10	0	统计
+
+表4-4 新闻内容表（cms_news_postitent）
+列名	数据类型	长度	小数点	含义
+id	mediumint	8	0	主键ID
+news_id	mediumint	8	0	新闻ID
+content	mediumtext	0	0	内容
+create_time	int	10	0	创建时间
+update_time	int	10	0	更新时间
+
+表4-5 推荐位表（cms__postition）
+列名	数据类型	长度	允许空	含义
+id	smallint	5	0	推荐位ID
+name	char	30	0	姓名
+status	tinyint	1	0	状态
+description	char	100	0	描述
+create_time	int	10	0	创建时间
+update_time	int	10	0	更新时间
+
+表4-6 推荐内容表（cms_position_content）
+列名	数据类型	长度	允许空	含义
+id	smallint	5	0	内容ID
+position_id	int	5	0	栏目ID
+title	varchar	30	0	标题
+thumb	varchar	100	0	路径
+url	varchar	100	0	url
+news_id	mediumint	8	0	新闻ID
+listorder	tinyint	3	0	排序
+status	tinyint	1	0	状态
+create_time	int	10	0	创建时间
+update_time	int	10	0	更新时间
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+第5章 系统详细设计及实现
+5.1 前台设计
+5.1.1 前台首页
+前台首页是主界面主要用于展示数据，导航栏显示各个栏目的新闻，里面有栏目的分类数据，同时对数据进行排行，已经阅读人数来进行排序。主要代码。
+
+
+
+
+图5.1 前台首页
+5.1.2 前台广告位
+主要用于广告位的展示，一般网站为了一些开支，都会介入一些广告，这样的话都要设置展示广告的位置，最好是用图片的方式，因为图片里面可以又加入一些链接等。
+
+
+
+图5.2前台广告位
+
+5.1.3前台文章排行
+文章排序对用户的文章进行排序，这样的话用户可以很容易的看到热门的一些文章。
+
+图5.3 前台文章排行
+public function getRank() {
+$conds['status'] = 1;
+$news = D("News")->getRank($conds,10);
+return $news;
+}
+5.2 后台设计
+5.2.1 后台登陆
+
+图5.3 后台登陆
+
+后台登陆采用PHP+ajax原理，提示框采用layer插件，因为自己把提示框用diag类进行封装，所以可以直接采用json格式，同时用js进行数据格式的验证，防止sql注入等问题。
+public function check(){
+$username = $_POST['username'];
+$password = $_POST['password'];
+$ret = D('Admin')->getAdminByUsername($username);
+if (!$ret){
+r eturn show(0,'该用户不存在');
+}
+if ($ret['password']!=getMd5Password($password)){
+return show(0,'密码错误');
+}
+D("Admin")->updateByAdminId($ret['admin_id'],array('lastlogintime'=>time()));
+session('adminUser',$ret);
+return show(1,'登录成功');
+}
+5.2.2 后台首页
+
+5.2.3 菜单管理
+
+使用自动添加菜单栏，可以实现添加后台菜单和前台菜单，同时对菜单可以进行编辑，删除，排序操作，所有的操作都采用异步ajax形式。
+public function index() {
+if(isset($_REQUEST['type']) && in_array($_REQUEST['type'], array(0,1))) {
+$data['type'] = intval($_REQUEST['type']);
+$this->assign('type',$data['type']);
+}else{
+$this->assign('type',-100);
+}
+/**
+* 分页操作逻辑
+*/
+$page = $_REQUEST['p'] ? $_REQUEST['p'] : 1;
+$pageSize = $_REQUEST['pageSize'] ? $_REQUEST['pageSize'] : 5;
+$menus = D("Menu")->getMenus($data,$page,$pageSize);
+$menusCount = D("Menu")->getMenusCount($data);
+
+$res = new \Think\Page($menusCount, $pageSize);
+$pageRes = $res->show();
+$this->assign('pageRes', $pageRes);
+$this->assign('menus',$menus);
+$this->display();
+}
+5.2.4 文章管理
+
+对于文章管理，可以对标题进行搜素，查找功能，对于不正常的状态进行标记。同时分页处理。
+
+$news = D("News")->getNews($conds,$page,$pageSize);
+$count = D("News")->getNewsCount($conds);
+
+$res  =  new \Think\Page($count,$pageSize);
+$pageres = $res->show();
+$positions = D("Position")->getNormalPositions();
+$this->assign('pageres',$pageres);
+$this->assign('news',$news);
+$this->assign('positions', $positions);
+
+$this->assign('pageres',$pageres);
+$this->assign('news',$news);
+$this->assign('webSiteMenu',D("Menu")->getBarMenus());
+$this->display();
+5.2.5 推荐位管理
+
+对于推荐位主要作用是管理员发表的时候所有的文章都要经过推荐位才能发送，推荐位主要有首页大图推荐，小图推荐，右侧广告位推荐，同时对推荐位可以进行curd操作。
+5.2.6 推荐位内容管理
+
+推荐位内容主要存放文章被推荐的内容，同样都使用ajax异步方式进行处理。
+5.2.7 用户管理
+
+对用户进行管理，如果用户进行退出，就会显示最后的登陆时间，标记为非正常的数据则会读取不出来。如果用户是从数据库直接插入的话就会显示默认为1970年。
+5.2.8 用户管理
+
+
+对于基本管理使用缓存处理，原因是这里的数据不需要进行一些curd操作，如果使用缓存的话对于数据库的损耗也会降低许多。缓存的数据直接也会读取到用户前台中。使用缓存的话可以提高网站的性能，由于是对于这种不需要频繁进行查找操作的操作的时候，使用缓存可以变的非常高效，在大型网站的时候一般采用redis解决这个问题，因为本项目没有太大的流量，所以没有使用redis操作。
+5.2.9 用户个人中心
+
+显示用户的一些个人信息，同样也使用缓存进行管理。个人中心直接使用session名，然后用模板显示在前台页面中，在控制器调用公共的function函数就可以直接完成。
+5.3 数据格式,项目技术原理等
+5.3.1 数据格式JSON
+在没有json出现的时候，web数据交互方式采用多的xml格式，但是相比于json，xml比较难于看懂，但是xml文件格式复杂，传送的比较占用带宽，服务器和客户端解析比较麻烦，json出现使得这种情况变得好转，json数据格式比较简单，容易压缩，能够比较容易解析。本项目前台向后台传值得使用都采用json格式。比如：
+
+var data {
+"uername":urename,
+"password":password,
+"url":url,
+"type":json
+}
+5.3.2 分页原理
+分页的原理实现比较简单，对于数据库查询操作如果要查询数据库里面的所有数据的时候一般采用select *from table,如果要查询前10条数据的时候要采用：select *from table limit 0,10.这样的话在数据库就会查询到前10条数据，那么分页的时候就相当于先在一个页面显示前10条数据，在第二个页面显示下一次的10条数据，通过设置变量$p代表页数，所以的话数据库操作为这样：select *from table limit offset,pageseize, 其中offset = $(page)-1*pagesize，因为数据库是从0开始的，所以第一页的话要$pagesize,以下是利用TP框架下的分页类库组装而成的代码。
+public function getMenus($data, $page, $pageSize = 10)
+{
+$data['status'] = array('neq',-1);
+$offset = ($page-1) *$pageSize;
+return $this->_db->where($data)->order('listorder desc,menu_id desc')->limit($offset,$pageSize)->select();
+
+public function getMenusCount($data = array())
+{
+$data['status'] = array('neq', -1);
+return $this->_db->where($data)->count();
+}
+
+5.3.3 cookie.session原理
+由于http是无状态协议，所以它不能对于用户的行为进行跟踪，这样的话就会面临一个问题，比如淘宝购物车的问题，一个用户购买一件物品加入购物车的话，想购买另外一件商品的话，浏览器不能识别这个用户是不是之前的用户，所以得话第二件商品无法加入到购物车，这样的话用户无法进行结算功能，为此用户体验特别不好，随着cookie，session，的出现。解决了浏览器无法识别用户的问题，通过设置cookie，或者session来跟踪这个用户，一般来说，cookie存在客户端，这样的话对于用户来说，如果经常访问一个网站的话，可以采用cookie实现记住用户的账号和密码，实现自动登录，而session存在服务器端，同样他也是跟踪用户，识别用户的一个技术，但是session存在服务器端，通常来说，由于存在服务器端，所以他存的大小会有限制，太大的话对于服务器的资源也是一种一种损耗.一下就是通过TP框架自带的session实现的设置session功能实现登陆，退出的功能.
+Session(‘username’,$useranme);
+Session(‘password’,$password);
+Cookies工作原理图 5.1
+
+
+
+
+
+
+
+
+
+
+
+
+
+结论
+本项目主要研究了新闻系统的一些业务逻辑，在这个过程中学习到了很多，一开始也遇到许多困难，比如框架的上手，框架的好处上对于开发比较方便，但是比如TP框架封装了好多业务逻辑，只知道会调用，但是有些原理不太清楚，通过独立做出本项目，理解了web开发的基本要素，从中也学习到了大公司开发并不只注重业务逻辑，涉及到的问题也有许多，比如高并发问题，当一个网站在并发量小的时候，代码可能没有BUG，但是当并发大的时候问题就会出现，通过这个项目掌握了TP框架，对分页原理有了更加深刻的认识，对于AJAX也进行了实战。
+在这个项目也遇到了一些问题，比如以前在学校学习的时候，对框架的使用，框架的概念完全不理解，根本就不懂，如何让自己做的成品，更加易于维护，易于修改，也让自己的成品更加美观。我所做的只是让功能运作起来，可以实现，却没考虑到弊端。通过老师的指导，我先是学习了TP这个框架，主要还是通过自己学习视频，看相关文档。通过这个框架，我开始理解框架的好处，框架的规范，如何使自己写的代码更加简洁明了。
+项目开发到一半遇到两个问题：一个是图片上传功能，再有一个就是数据格式。 图片上传采用uploadtif插件，但是看了文档实现不出来，一开始以为很简单，可是真正到了自己开发的时候才发现并不像想象的那么容易。我只要一想到上传时网络状况、数据格式这些技术问题，最后还是经过查阅文档，具体问题据分析，难关一个一个克服，经历了整夜守着谷歌翻译看帮助文档，经历了整夜调试修改别人的代码，经历了一个又一个不眠之夜，项目终于完成了！
+
+
+
+
+
+
+
+致谢语
+这是我做的第一个跟web有关的项目，并且也是第一个基于TP框架设计的项目。就因为对web技术的浓厚兴趣，因此选择做一个新闻管理系统。同时也十分感谢颜庆茁老师在我做本项目的过程中无私的支持和帮助。从选题到相关技术的选用，到系统的设计过程，甚至是论文的撰写，指导老师都能在百忙之中抽空对我进行指导和答疑，并提出了许多宝贵的意见，我才能顺利的完成毕业设计。在此也特别感谢我的辅导员，每当在大学学习或者生活中遇到自己不能解决的事情的时候，辅导员也经常抽空出来和我们谈心，有时候自己会陷入到一些死循环中，她每次回耐心的指导我们学生。
+在此，也非常感谢我们计算机学院的老师，是他们带领我走向了技术的大门。是他们用无私的努力才成就了今天的我，让我有机会踏入软件这个行业，为今后的灿烂人生打下坚实的基础。
+要毕业了，才感受到大学时间的流逝， 在此特别感谢帮助我毕业设计的指导老师让我从不会到会，耐心的给我讲解，也谢谢我的任课教师，特别感谢他们在大学里面指导。
+参考文献
+[1] 庞春辉. 基于Web企业管理系统的设计[D].大连：大连理工大学，2008.
+[2] 刘高原，张国平. 基于MVC模式的WEB管理系统的实现[J]. 华东交通大学学报
+[3] 明日科技. PHP函数参考大全. 北京:人民邮电出版社,2007
+[4] Bear Bibeault,Yehuda Katz. jQuery实战. 人民邮电出版社,2010年2月.
+[5] 潘凯华, 邹天思. PHP开发实战宝典[M]. 北京: 清华大学出版社, 2010.
+[6] 邹天思，孙鹏. PHP从入门到精通[M]. 北京: 清华大学出版社, 2008.
+[7]赵鹤芹. 设计动态网站的最佳方案:Apache+PHP+MySQL. 计算机工程与设计2007.28(4)
+[8]兰旭辉 熊家军 邓刚. 基于MySQL的应用程序设计. 计算机工程与设计2004 25(3).
+
